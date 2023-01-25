@@ -1,0 +1,8 @@
+asio
+assimp
+glm
+glew
+glfw3
+assimp
+freetype
+openal-soft
