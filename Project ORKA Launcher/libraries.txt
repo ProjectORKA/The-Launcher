@@ -1,8 +1,10 @@
 asio
 assimp
+bullet3
 glm
 glew
 glfw3
 assimp
 freetype
 openal-soft
+libwebp
