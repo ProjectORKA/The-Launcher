@@ -13,10 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Program">
+      <UniqueIdentifier>{a8465f52-4595-4702-a697-2114cc787df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Zipper">
+      <UniqueIdentifier>{e449092a-b687-4728-878a-28315b10ff78}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Basics.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Zipper.cpp">
+      <Filter>Source Files\Zipper</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -36,5 +51,13 @@
     <ResourceCompile Include="icon.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program.hpp">
+      <Filter>Source Files\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Zipper.hpp">
+      <Filter>Source Files\Zipper</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
